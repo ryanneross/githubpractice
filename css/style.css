@@ -1,0 +1,29 @@
+body{
+    background:white;
+}
+
+h1{
+    color:black;
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.dogcolumn img, .dogcolumn p {
+    width: 100%;
+} 
+/* for images within the div; use .___ for classes; the comma= and; so for two classes*/
+/* for paragraphs within the div */
+
+.dogfacts{
+    clear: both;
+    background: green;
+    color: white;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      color:green;
+    }
+
+  }
